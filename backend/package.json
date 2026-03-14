@@ -1,0 +1,24 @@
+{
+  "name": "nadodi-backend",
+  "version": "1.0.0",
+  "description": "Backend API for Nadodi Smart Travel Platform",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js",
+    "seed": "node scripts/seed.js"
+  },
+  "dependencies": {
+    "cloudinary": "^1.34.0",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.3",
+    "express": "^4.18.2",
+    "firebase-admin": "^11.10.1",
+    "mongoose": "^7.2.3",
+    "openai": "^4.9.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.22"
+  }
+}

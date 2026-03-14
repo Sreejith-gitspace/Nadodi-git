@@ -1,0 +1,36 @@
+name: Build Android APK
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+    branches: [main]
+
+jobs:
+  build:
+    name: Build release APK
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+
+      - name: Set up Flutter
+        uses: subosito/flutter-action@v2
+        with:
+          flutter-version: 'stable'
+
+      - name: Ensure Flutter project structure
+        run: flutter create . --org com.nadodi --project-name nadodi || true
+
+      - name: Install dependencies
+        run: flutter pub get
+
+      - name: Build release APK
+        run: flutter build apk --release --no-sound-null-safety
+
+      - name: Upload APK artifact
+        uses: actions/upload-artifact@v3
+        with:
+          name: nadodi-release-apk
+          path: build/app/outputs/flutter-apk/app-release.apk

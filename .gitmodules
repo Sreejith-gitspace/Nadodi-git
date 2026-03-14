@@ -1,0 +1,3 @@
+[submodule "external/nadodi"]
+	path = external/nadodi
+	url = https://github.com/Sreejith-codie/Nadodi.git

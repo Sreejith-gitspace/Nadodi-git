@@ -1,0 +1,24 @@
+[
+  {
+    "id": "hidden_001",
+    "name": "Mysterious Lagoon",
+    "description": "A secluded lagoon tucked away behind the tea estates.",
+    "district": "Idukki",
+    "latitude": 10.1021,
+    "longitude": 77.0614,
+    "imageUrl": "https://images.unsplash.com/photo-1526772662000-3f88f10405ff?auto=format&fit=crop&w=1000&q=80",
+    "tags": ["hidden", "waterfall"],
+    "isHidden": true
+  },
+  {
+    "id": "hidden_002",
+    "name": "Sunrise Rock Point",
+    "description": "A sunrise viewpoint only known to local hikers.",
+    "district": "Wayanad",
+    "latitude": 11.5657,
+    "longitude": 76.1431,
+    "imageUrl": "https://images.unsplash.com/photo-1507537297725-24a1c029d3ca?auto=format&fit=crop&w=1000&q=80",
+    "tags": ["sunrise", "trekking"],
+    "isHidden": true
+  }
+]

@@ -1,0 +1,24 @@
+[
+  {
+    "id": "place_001",
+    "name": "Varkala Beach",
+    "description": "A beautiful cliffside beach with serene sunsets and seaside cafes.",
+    "district": "Thiruvananthapuram",
+    "latitude": 8.7389,
+    "longitude": 76.7237,
+    "imageUrl": "https://images.unsplash.com/photo-1519671482749-fd09be7ccebf?auto=format&fit=crop&w=1000&q=80",
+    "tags": ["beach", "sunset", "heritage"],
+    "isHidden": false
+  },
+  {
+    "id": "place_002",
+    "name": "Munnar Tea Gardens",
+    "description": "Lush green tea estates with misty hills and winding roads.",
+    "district": "Idukki",
+    "latitude": 10.0866,
+    "longitude": 77.0590,
+    "imageUrl": "https://images.unsplash.com/photo-1526772662000-3f88f10405ff?auto=format&fit=crop&w=1000&q=80",
+    "tags": ["hillstation", "nature", "plantation"],
+    "isHidden": false
+  }
+]
